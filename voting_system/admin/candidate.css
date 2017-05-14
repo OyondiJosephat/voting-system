@@ -1,0 +1,159 @@
+BODY {
+	background: #448ed3;
+	color: #fff;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+body {
+	background: #448ed3 ;
+	font-family: "Lato" ;
+}
+.wrap {
+	width:750px;
+	height: auto;
+	margin: auto;
+	margin-top:;
+}
+.avatar {
+	width: 100%;
+	margin: auto;
+	width: 65px;
+	border-radius: 100px;
+	height: 65px;
+	background: #448ed3 ;
+	position: relative;
+	bottom: -15px;
+}
+.avatar img {
+	width: 55px;
+	height: 55px;
+	border-radius: 100px;
+	margin: auto;
+	border:3px solid #fff;
+	display: block;
+}
+.wrap input {
+	border: none;
+	background: #fff;
+  font-family:Lato ;
+  font-weight:700 ;
+	display: block;
+	height: 40px;
+	outline: none;
+	width: calc(100% - 5px) ;
+	margin: auto;
+	padding:4px;
+}
+
+.bar i {
+	width: 95%;
+	margin: auto;
+	height: 1px ;
+	display: block;
+	background: #d1d1d1;
+}
+.wrap input[type="text"] {
+	border-radius: 7px 7px 7px 7px ;
+}
+.wrap input[type="password"] {
+	border-radius: 7px 7px 7px 7px ;
+}
+
+.login input[type=submit]{
+	width: 100px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 10px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0px;
+	margin-top: 10px;
+}
+.admin_login input[type=submit]{
+	width: 100px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 10px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+.wrap button:active{
+	opacity: 0.6;
+}
+
+
+.wrap button {
+	width: 100%;
+	border-radius: 7px;
+	alignment-adjust:central;
+	text-decoration: center;
+	border: none;
+	color: #51771a;
+	margin-top:-5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	outline: none;
+	font-size: 13px;	
+	border-bottom: 3px solid #307d63;
+	cursor: pointer;
+}
+.wrap button:hover{
+	opacity: 0.8;
+	background-color: transparent;
+	}
+</style>
+#table{
+	border-radius:10px;
+	height:auto;
+	width::80%;
+	background:#44bed3;
+}
+
+td {       font-size: 8pt;
+background-color:#CCC;
+}
+A:link { color: #039;
+text-decoration:underline;
+position:relative;
+outline:hidden;
+display:block; }
+A:visited { color: #800080; }
+A:active { color: #0000FF; }
+A.link :hover{
+	opacity: 0.8;
+	background-color: transparent;
+	}
+.ThRows {
+	background-color: #575757;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.TrRows { background-color: #FFC993; color: #000000;
+       font-family: Verdana;
+       font-size: 8pt;
+}
+.TrOdd  {
+	background-color: #575757;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 8pt;
+}.TrHover { background-color: #333; color: #CFF;
+       font-family: Verdana;
+	   opacity:0.6em;
+       font-size: 8pt;
+}
